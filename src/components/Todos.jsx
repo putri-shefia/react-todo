@@ -1,38 +1,10 @@
 import React from "react";
+import Todo from "./Todo";
 
 const Todos = () => {
   return (
     <section className="todos">
-      <div className="todo">
-        <span className="todo-text">Learning React</span>
-      </div>
-      <div className="todo">
-        <span className="todo-text">Learning React</span>
-      </div>
-      <div className="todo">
-        <span className="todo-text">Learning React</span>
-      </div>
-      <div className="todo">
-        <span className="todo-text">Learning React</span>
-      </div>
-      <div className="todo">
-        <span className="todo-text">Learning React</span>
-      </div>
-      <div className="todo">
-        <span className="todo-text">Learning React</span>
-      </div>
-      <div className="todo">
-        <span className="todo-text">Learning React</span>
-      </div>
-      <div className="todo">
-        <span className="todo-text">Learning React</span>
-      </div>
-      <div className="todo">
-        <span className="todo-text">Learning React</span>
-      </div>
-      <div className="todo">
-        <span className="todo-text">Learning React</span>
-      </div>
+      <Todo text="Belajar React" />
     </section>
   );
 };
